@@ -1,0 +1,3 @@
+configs/*.conf
+logs/*.log
+ssh/*

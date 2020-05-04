@@ -1,0 +1,15 @@
+{
+    "common": 
+    {
+        #거래소 키를 암호화 & 복호화시 사용할 키를 입력합니다
+        #container기준으로 설정되어있습니다
+        "key_file": {
+            "rsa_key_file": "/workspace/.ssh/id_rsa",
+            "rsa_pub_file": "/workspace/.ssh/id_rsa.pub"
+        },
+        "strategy":{
+            "strategy": ["mq_strategy.MQStrategy"],
+            "config": "configs/first_strategy.conf"
+        }
+    }
+}
